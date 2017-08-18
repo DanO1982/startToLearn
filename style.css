@@ -1,17 +1,19 @@
 h1{
-  color: mint green;
+  color: #00FF80;
   font-size: 3em;
 }
 h2{
-  color: dark green;
+  color: #008000;
   font-size: 2em;
+  font-family: "arial", times-new-roman;
 }
 h3{
-  color: dark brown;
+  color: brown;
   font-size: 1em;
   font-style: bold;
+  font-family: comic-sans;
 }
 p{
   color: black;
-  font-family: comic sans;
+  font-family: comic-sans;
 }
