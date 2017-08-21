@@ -1,10 +1,10 @@
 body{
-  background-color: #DDFFDD;
+  background-color: #EDFFED;
 }
 
 h1{
-  background-color: #A0C0A0;
-  color: #606060;
+  background-color: #A0B0A0;
+  color: #F2F2F2;
   font-size: 0.8em;
   font-family: "Sans-serif", times-new-roman;
   /*font-weight: bold;*/
@@ -16,9 +16,9 @@ h2{
   font-family: "arial", times-new-roman;
 }
 h3{
-  color: #008020;
+  color: #305030;
   background-color: #C0E0C0;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   font-family: "comic-sans", arial;
 }
@@ -32,7 +32,11 @@ q{
   font-style: italic;
 }
 
-/* Add a light grey background color to the top navigation */
+a{
+  font-family: "arial", times-new-roman;
+}
+
+/* Add a light grey green background color to the top navigation */
 .topnav {
     background-color: #A0B0A0;
     overflow: hidden;
@@ -48,6 +52,7 @@ q{
     text-decoration: none;
     font-size: 17px;
     font-family: Arial;
+    font-weight: bold;
 }
 
 /* Change the color of links on hover */
