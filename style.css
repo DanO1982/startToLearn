@@ -3,6 +3,11 @@ body{
   margin:0;
 }
 
+hr{
+  background-color: #C0E0C0;
+  padding: 10px;
+}
+
 h1{
   background-color: #A0B0A0;
   /*color: #F2F2F2;
@@ -46,22 +51,37 @@ a{
   color: darkgrey;
 }
 
-/* Add a light grey green background color to the top navigation */
-.topnav {
-    overflow: hidden;
+/*NavBar: */
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px;
+  background-color: #A0B0A0;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
-/* Style the links inside the navigation bar */
-/*.topnav a {
-    float: left;
-    display:block;
-
-}*/
+.nav a{
+  padding: 0 10px 0 10px;
+  color: #f2f2f2;
+  text-align: center;
+  float: left;
+  display:block;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial;
+  font-weight: bold;
+}
 
 /* Change the color of links on hover */
 .nav a:hover {
-    background-color: #40B040;
-    color: black;
+  border-spacing: 5px;
+  border-style: solid;
+  border-color: #30A030;
+  border-width: thin;
+  padding: 3px;
 }
 
 /* Add a color to the active/current link */
@@ -83,26 +103,7 @@ a{
 
  }
 
- .nav{
-   display: flex;
-   justify-content: flex-end;
-   padding: 14px 16px;
-   background-color: #A0B0A0;
-   position: fixed;
-   width: 100%;
-   top: 0;
- }
 
- .nav a{
-   padding: 0 10px 0 10px;
-   color: #f2f2f2;
-   text-align: center;
-
-   text-decoration: none;
-   font-size: 17px;
-   font-family: Arial;
-   font-weight: bold;
- }
 
  .linkWrapper{
    display: flex;
