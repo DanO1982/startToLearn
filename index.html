@@ -33,8 +33,10 @@
     <div class="right">
       <h4>The Joy of The Lord is our strength!</h4>
       <h3>Come visit us!</h3>
-      <a class="button" href="ContactUs.html">Join Us! </a>
-      <a class="button" href="#WhereWeAre">Where we Are </a>
+
+      <!-- <a class="button" href="ContactUs.html">Join Us! </a>
+      <a class="button" href="#WhereWeAre">Where we Are </a> -->
+
     </div>
   </div>
 
@@ -42,9 +44,9 @@
   </section>
 
   <section class="about">
-    <p>- [About section] -</p>
+    <!-- <p>- [About section] -</p> -->
     <h2>About Camp Eden ...</h2>
-    <p>(Intro to Camp Eden)</p>
+    <p>Camp Eden is located on a beautiful 2400 hectare farm in Mpumalanga close to Heidelberg and only 80km from Johannesburg.  This site is ideal for youth camps, team building and retreats.</p>
     <p>(more about Camp Eden)</p>
     <q cite="https://www.biblegateway.com/passage/?search=john+10%3A10+&version=ESV"> ... I came that they [you!] may have life and have it abundantly. </q>
     <p>(Jesus, John 10:10)</p>
@@ -52,39 +54,46 @@
 
   </section>
 
-  <section class="Footer">
-    <p>- [Footer section] -</p>
-
-    <section id="WhereWeAre" class"edenMap">
-      <h2>Where we are ...</h2>
-
-      <div id="map"></div>
-          <script>
-            function initMap() {
-              var campEdenCoord = {lat: -26.654, lng: 28.461 };
-              var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 13,
-                center: campEdenCoord
-              });
-              var marker = new google.maps.Marker({
-                position: campEdenCoord,
-                map: map
-              });
-            }
-          </script>
-          <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSI0hjTon7XrSGdKBQmHKlBfLm7yi1B4w&callback=initMap">
-          </script>
-
-
-    </section>
-
+  <section id="WhereWeAre" class"edenMap">
     <hr>
 
+    <h2>Where we are ...</h2>
 
-    <p> -(Facebook-link)- </p>
+    <div id="map"></div>
+        <script>
+          function initMap() {
+            var campEdenCoord = {lat: -26.654, lng: 28.461 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 13,
+              center: campEdenCoord
+            });
+            var marker = new google.maps.Marker({
+              position: campEdenCoord,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSI0hjTon7XrSGdKBQmHKlBfLm7yi1B4w&callback=initMap">
+        </script>
+  </section>
 
-    <img src="jlifesa.png" alt="camp eden j-life jlife south africa">
+  <section class="Footer">
+    <hr>
+
+    <!-- <p>- [Footer section] -</p> -->
+
+    <!-- <p> -(Facebook-link)- </p> -->
+    <a target="_blank" title="find us on Facebook" href="http://www.facebook.com/jlifeafrica/">
+      <img alt="j-life facebook" src="facebook_40x40.png">
+    </a>
+    <br>
+    <a target="_blank" title="Find out more about J-Life" href="http://test.jlife.org.za/">
+      <img alt="camp eden j-life jlife south africa" src="jlifesa.png"  >
+    </a>
+
+    <hr>
+    <!-- <hr> -->
 
   </section>
 

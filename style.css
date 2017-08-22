@@ -10,6 +10,7 @@ hr{
 
 h1{
   background-color: #A0B0A0;
+  text-align: center;
   /*color: #F2F2F2;
   font-size: 0.8em;
   font-family: "Sans-serif", times-new-roman;
@@ -19,11 +20,13 @@ h1{
 h2{
   color: #205020;
   background-color: #C0E0C0;
+  text-align: center;
   /*font-size: 2em;
   font-family: "arial", times-new-roman;*/
 }
 h3{
   color: #305030;
+  text-align: center;
   /*background-color: #C0E0C0;
   font-size: 1.2em;
   font-weight: bold;
@@ -32,11 +35,15 @@ h3{
 p{
   color: black;
   font-family: "comic-sans", arial;
+  justify-content: center;
+  text-align:justify;
   /*font-weight: bold;*/
 }
 q{
   font-family: "sans serif", arial;
   font-style: italic;
+  justify-content: center;
+  text-align:justify;
 }
 
 a{
@@ -99,10 +106,8 @@ a{
 .hero {
    /*background: url("./hero.jpg") cover ;
    height: 400px;*/
-
-
+   vertical-align: middle;
  }
-
 
 
  .linkWrapper{
@@ -123,4 +128,9 @@ a{
 #map {
   height: 400px;
   width: 100%;
+}
+
+.footer{
+  vertical-align: middle;
+
 }
