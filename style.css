@@ -1,31 +1,33 @@
 body{
   background-color: #EDFFED;
+  margin:0;
 }
 
 h1{
   background-color: #A0B0A0;
-  color: #F2F2F2;
+  /*color: #F2F2F2;
   font-size: 0.8em;
   font-family: "Sans-serif", times-new-roman;
-  /*font-weight: bold;*/
-  padding: 10px 10px;
+  font-weight: bold;
+  padding: 10px 10px;*/
 }
 h2{
-  color: #008000;
-  font-size: 2em;
-  font-family: "arial", times-new-roman;
+  color: #205020;
+  background-color: #C0E0C0;
+  /*font-size: 2em;
+  font-family: "arial", times-new-roman;*/
 }
 h3{
   color: #305030;
-  background-color: #C0E0C0;
+  /*background-color: #C0E0C0;
   font-size: 1.2em;
   font-weight: bold;
-  font-family: "comic-sans", arial;
+  font-family: "comic-sans", arial;*/
 }
 p{
   color: black;
   font-family: "comic-sans", arial;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 q{
   font-family: "sans serif", arial;
@@ -36,33 +38,34 @@ a{
   font-family: "arial", times-new-roman;
 }
 
+.button{
+  padding: 15px;
+  background-color: #C0E0FF;
+  border-style: solid;
+  border-width: medium;
+  color: darkgrey;
+}
+
 /* Add a light grey green background color to the top navigation */
 .topnav {
-    background-color: #A0B0A0;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+/*.topnav a {
     float: left;
     display:block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: Arial;
-    font-weight: bold;
-}
+
+}*/
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.nav a:hover {
     background-color: #40B040;
     color: black;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.nav a.active {
     background-color: #4CAF50;
     color: white;
 }
@@ -72,3 +75,51 @@ a{
    height: 400px;
    background-color: grey;
  }*/
+
+.hero {
+   /*background: url("./hero.jpg") cover ;
+   height: 400px;*/
+
+
+ }
+
+ .nav{
+   display: flex;
+   justify-content: flex-end;
+   padding: 14px 16px;
+   background-color: #A0B0A0;
+   position: fixed;
+   width: 100%;
+   top: 0;
+ }
+
+ .nav a{
+   padding: 0 10px 0 10px;
+   color: #f2f2f2;
+   text-align: center;
+
+   text-decoration: none;
+   font-size: 17px;
+   font-family: Arial;
+   font-weight: bold;
+ }
+
+ .linkWrapper{
+   display: flex;
+   margin-right: 20px;
+ }
+
+@media (max-width:480px){
+  .nav{
+    display: none;
+  }
+}
+
+.halves{
+  display: flex;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}

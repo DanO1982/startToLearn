@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <style>
-    #map {
-     width: 100%;
-     height: 400px;
-     background-color: grey;
-    }
-  </style>
 
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>J-Life Camp Eden - Home</title>
 </head>
+
 <body>
-  <h1>  Welcome to J-Life Africa's ...  </h1>
-  <img src="camp eden.png" alt="camp eden j-life jlife">
-  <div class="topnav" id="mainTopnav">
-    <a href="#Home">| Home |</a>
-    <a href="#WhatWeOffer">| What We Offer |</a>
-    <a href="#Prices">| Prices |</a>
-    <a href="#ContactUs">| Contact Us |</a>
-    <a href="#Blog">| Blog |</a>
+
+<div class="nav">
+  <div class="linkWrapper">
+    <a href="index.html">Home</a>
+    <a href="WhatWeOffer.html">What we Offer</a>
+    <a href="Prices.html">Prices</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <a href="EdenBlog.html">Blog</a>
   </div>
-  <h3>Where we Are:</h3>
+</div>
 
-  <img src="CampEdenBasicMap.png" alt="camp eden j-life jlife map">
+  <section class="hero">
+    <p>- [Hero section] -</p>
 
-  <p>Click below for a quick google maps link via a web browser </p>
+  <div class="halves">
+    <div class="left">
+      <img src="camp eden.png" alt="camp eden j-life jlife">
 
-  <a href="https://www.google.co.za/maps/place/Camp+Eden+J-Life+Africa+Campsite/@-26.6529846,28.458459,17z/data=!3m1!4b1!4m5!3m4!1s0x1e94c640fbac354f:0x99758d27d62ae58!8m2!3d-26.6529846!4d28.4606477"></a>
+    </div>
+    <div class="right">
+      <h4>The Joy of The Lord is our strength!</h4>
+      <h3>Come visit us!</h3>
+      <a class="button" href="ContactUs.html">Join Us! </a>
+      <a class="button" href="#WhereWeAre">Where we Are </a>
+    </div>
+  </div>
 
-  <p>Or, put "J-life Africa" into google maps app</p>
 
-  <p>( nifty google maps widget comming soon, hopefully! )</p>
+  </section>
 
-  <h3>About Camp Eden:</h3>
-  <p>(Intro to Camp Eden)</p>
-  <p>(more about Camp Eden)</p>
-  <q cite="https://www.biblegateway.com/passage/?search=john+10%3A10+&version=ESV"> ... I came that they [you!] may have life and have it abundantly. </q>
-  <p>(Jesus, John 10:10)</p>
-  <img src="jlifesa.png" alt="camp eden j-life jlife south africa">
-  <h1> _</h1>
-  <p> -(Facebook-link)- -(Other-links)-</p>
+  <section class="about">
+    <p>- [About section] -</p>
+    <h2>About Camp Eden ...</h2>
+    <p>(Intro to Camp Eden)</p>
+    <p>(more about Camp Eden)</p>
+    <q cite="https://www.biblegateway.com/passage/?search=john+10%3A10+&version=ESV"> ... I came that they [you!] may have life and have it abundantly. </q>
+    <p>(Jesus, John 10:10)</p>
+
+
+  </section>
+
+  <section class="Footer">
+    <p>- [Footer section] -</p>
+
+    <section id="WhereWeAre" class"edenMap">
+      <h2>Where we are ...</h2>
+
+      <div id="map"></div>
+          <script>
+            function initMap() {
+              var campEdenCoord = {lat: -26.654, lng: 28.461 };
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                center: campEdenCoord
+              });
+              var marker = new google.maps.Marker({
+                position: campEdenCoord,
+                map: map
+              });
+            }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSI0hjTon7XrSGdKBQmHKlBfLm7yi1B4w&callback=initMap">
+          </script>
+
+
+
+
+
+
+    </section>
+
+
+    <p> -(Facebook-link)- -(Other-links)-</p>
+
+    <img src="jlifesa.png" alt="camp eden j-life jlife south africa">
+
+  </section>
+
+
+
 </body>
 </html>
