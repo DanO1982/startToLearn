@@ -179,10 +179,10 @@ a{
 }
 
 
-#map {
+/*#map {
   height: 250px;
   width: 405px;
-}
+}*/
 
 .footer{
   /*display: block;
@@ -200,8 +200,8 @@ a{
 }
 
 .gmaplink{
-  height: 40px;
-  width: 40px;
+  /*height: 40px;
+  width: 40px;*/
   margin-left: 7px;
   /*margin-right: auto;*/
 }
