@@ -58,13 +58,13 @@ a{
   font-family:sans-serif;
 }
 
-.button{
+/*.button{
   padding: 15px;
   background-color: #C0E0FF;
   border-style: solid;
   border-width: medium;
   color: darkgrey;
-}
+}*/
 
 /*NavBar: */
 
@@ -79,30 +79,36 @@ a{
 }
 
 .nav a{
-  padding: 0 10px 0 10px;
+  padding: 1px 10px 1px 10px;
   color: #f2f2f2;
   text-align: center;
   float: left;
   display:block;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   font-family: Arial;
   font-weight: bold;
+  border-style:outset;
+  border-color: #C0C0C0  ;
+  border-width: thin;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 /* Change the color of links on hover */
 .nav a:hover {
-  border-spacing: 5px;
-  border-style: solid;
-  border-color: #30A030;
+  /*border-spacing: 5px;*/
+  border-style: outset;
+  color: #B0FFB0;
   border-width: thin;
-  padding: 3px;
+  /*padding: 3px;*/
 }
 
 /* Add a color to the active/current link */
-.nav a.active {
-    background-color: #4CAF50;
-    color: white;
+.nav a:active {
+  border-style: dotted;
+  border-color: #30B030;
+  border-width: thin;
 }
 
 /*.map {
@@ -199,13 +205,53 @@ a{
   text-align: center;
 }
 
-.ftrImgs{
-  display: block;
+/*.ftrImgs {
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-color: #90d0FF;
+border-style: solid;
+border-width: thin;
+}*/
+
+/*Picture Links*/
+.picCenter a{
+  display:block;
   margin-left: auto;
   margin-right: auto;
-  border-color: #d0d0d0;
+}
+
+.picLink a{
+  /*display: run-in;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #90d090;
   border-style: solid;
+  border-spacing: 5px;
   border-width: thin;
+  padding: 3px;*/
+}
+
+.picLink img {
+  border-style:outset;
+  border-color: #BDFFBD;
+  border-width:thin;
+  padding: 5px;
+  /*margin: 50px; */
+}
+/* Change the color of links on hover */
+.picLink img:hover {
+  border-style:outset;
+  border-color: #50C050;
+  border-width:thin;
+  /*padding: 30px;
+  margin: 50px; */
+}
+
+.picLink img:active {
+  border-style:dotted;
+  border-color: #50C050;
+  border-width:thin;
 }
 
 .gmaplink{
@@ -228,11 +274,3 @@ a{
   border-width: medium;
   padding: 3px;
 }*/
-
-.gmaplink a:hover{
-
-}
-
-.cursive{
-  font-family: cursive;
-}
