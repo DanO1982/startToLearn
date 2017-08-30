@@ -215,10 +215,12 @@ border-width: thin;
 }*/
 
 /*Picture Links*/
-.picCenter a{
+img.picCenter{
   display:block;
   margin-left: auto;
   margin-right: auto;
+  /*width: 80em;*/
+  /*align-items: center;*/
 }
 
 .picLink a{
