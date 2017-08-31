@@ -16,11 +16,11 @@ h2{
   background-color: #C0E0C0;
   text-align: center;
   /*font-size: 2em;*/
-  font-family:cursive;
+  font-family:monospace;
 }
 h3{
   color: #505050;
-  font-family:cursive;
+  font-family:monospace;
   font-size: 0.8em;
 }
 h4{
@@ -33,11 +33,11 @@ h5{
   color: maroon;
   font-size: 0.9em;
   text-align: center;
-  font-family:cursive;
+  font-family:monospace;
 }
 p{
   color: black;
-  font-family:sans-serif;
+  font-family:monospace;
   justify-content: center;
   text-align:justify;
   font-size: 1.1em;
@@ -47,7 +47,7 @@ q{
   color: #505050;
   font-size: 1em;
   text-align: center;
-  font-family:cursive;
+  font-family:monospace;
 }
 a{
   font-family:sans-serif;
@@ -58,8 +58,8 @@ a{
 .nav{
   display: flex;
   justify-content: flex-end;
-  padding: 10px 10px;
-  background-color: #A0B0A0;
+  padding: 5px 5px;
+  background-color: #809080;  /*#A0B0A0;*/
   position: fixed;
   width: 100%;
   top: 0;
@@ -72,9 +72,9 @@ a{
   float: left;
   display:block;
   text-decoration: none;
-  font-size: 16px;
-  font-family: Arial;
-  font-weight: bold;
+  font-size: 14px;
+  font-family:sans-serif;
+  font-weight:500;
   border-style:outset;
   border-color: #C0C0C0  ;
   border-width: thin;
@@ -109,7 +109,7 @@ a{
  .heroImgs{
    display: block;
    margin-left: auto;
-   margin-right: auto;
+   margin-right: 10px;
    border-color: #d0d0d0;
    border-style:solid;
    border-width: thick;
