@@ -128,46 +128,46 @@ a{
   }
 }
 
-.thirds{
+.halves{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*align-content: center;*/
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 
 .leftSide{
+  float: left;
+  width: 700px;
+  border: 1px solid #c0d0c0;
+  /*border-color: ;*/
+  margin: 5px 5px 5px 5px;
+  text-align: justify;
+
   /*background-image: url(EdenSunset.png);*/
   /*background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: cover;
-  height: 200px;
+  background-size: cover;*/
+  /*height: 200px;
   border-color: #d0d0d0;
   border-style: solid;
   border-width: thick;*/
 }
 
-.middleSide{
-  /*background-image: url(camp eden.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
-  height: 200px;*/
-  /*border-color: #d0d0d0;
-  border-style: solid;
-  border-width: thick;*/
-}
 
 .rightSide{
+  /*border: 1px solid green;*/
+  margin: 5px 5px 5px 5px;
+
+
   /*background-image: url(edenSign.png);*/
   /*background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: cover;
-  height: 200px;
+  background-size: cover;*/
+  /*height: 200px;
   border-color: #d0d0d0;
   border-style: solid;
   border-width: thick;*/
