@@ -1,5 +1,5 @@
 body{
-  background-color: #EDFFED;
+  background-color: #EDEFDD;
   margin:0;
 }
 
@@ -13,16 +13,18 @@ h1{
 }
 h2{
   color: #205020;
-  background-color: #C0E0C0;
-  text-align: center;
+  background-color: #C8E0C0;
+  text-align:left;
   font-size: 1.5em;
-  font-family:monospace;
+  font-family:arial black;
   font-weight: bold;
 }
 h3{
   color: #505050;
-  font-family:monospace;
-  font-size: 1em;
+  font-family:comic sans ms;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: normal;
 }
 h4{
   color: #505050;
@@ -31,14 +33,34 @@ h4{
   font-family:sans-serif;
 }
 h5{
-  color: maroon;
-  font-size: 1em;
+  color: #c0a0a0;
+  font-size: 1.5em;
   text-align: center;
-  font-family:monospace;
+  font-family:comic sans ms;
 }
+h6{
+  color: #901010;
+  font-family:comic sans ms;
+  font-size: 0.9em;
+  text-align: center;
+  font-style: normal;
+}
+.linkLeft{
+  color: #205020;
+  font-size: 1.5em;
+  text-align: leftSide;
+  font-family:Arial Black;
+}
+.linkRight{
+  color: #205020;
+  font-size: 1.5em;
+  text-align: rightSide;
+  font-family:Arial Black;
+}
+
 p{
   color: black;
-  font-family:monospace;
+  font-family: comic sans ms;
   justify-content: center;
   text-align:justify;
   font-size: 1.3em;
@@ -135,12 +157,15 @@ a{
   display: flex;
   align-items: center;
   align-content: center;
+  text-align:center;
+  /*border: 1px solid #c0d0c0;
+  border-color: ;*/
 }
 
 .leftSide{
   float: left;
-  width: 700px;
-  border: 1px solid #c0d0c0;
+  width: auto;
+  /*border: 1px solid #c0d0c0;*/
   /*border-color: ;*/
   margin: 5px 5px 5px 5px;
   text-align: justify;
@@ -160,6 +185,9 @@ a{
 .rightSide{
   /*border: 1px solid green;*/
   margin: 5px 5px 5px 5px;
+  margin-left: auto;
+  align-items:stretch;
+
 
 
   /*background-image: url(edenSign.png);*/
@@ -187,15 +215,23 @@ img.picCenter{
   margin-right: auto;
 }
 
-.picLink a{
-  /*display: run-in;
+img.picRightSide{
+  display:block;
   margin-left: auto;
+  margin-right: 10px;
+}
+
+img.picLeftSide{
+  display: block;
+  margin-left: 10px;
   margin-right: auto;
-  border-color: #90d090;
+  border-color: #d0d0d0;
   border-style: solid;
-  border-spacing: 5px;
-  border-width: thin;
-  padding: 3px;*/
+  border-width: medium;
+}
+
+.picLink a{
+  text-align: center;
 }
 
 .picLink img {
