@@ -11,6 +11,18 @@ h1{
   background-color: #A0B0A0;
   text-align: center;
 }
+
+@media (max-width:480px){
+  h2{
+    padding-top: 35px;
+    color: #205020;
+    background-color: #C8E0C0;
+    text-align:left;
+    font-size: 1.5em;
+    font-family:arial black;
+    font-weight: bold;
+  }
+}
 h2{
   color: #205020;
   background-color: #C8E0C0;
@@ -19,6 +31,7 @@ h2{
   font-family:arial black;
   font-weight: bold;
 }
+
 h3{
   color: #505050;
   font-family:comic sans ms;
@@ -144,11 +157,11 @@ a{
    margin-right: 20px;
  }
 
-@media (max-width:480px){
-  .linkWrapper{
-    display: block;
-  }
-}
+ @media (max-width:480px){
+   .linkWrapper{
+     display: block;
+   }
+ }
 
 .halves{
   display: block;
@@ -162,43 +175,35 @@ a{
   border-color: ;*/
 }
 
+@media (max-width:480px){
+  .leftSide{
+    float: left;
+    width: auto;
+    margin: 5px 5px 5px 5px;
+    padding-top: 15px;
+
+    text-align: justify;
+  }
+}
+
 .leftSide{
   float: left;
   width: auto;
-  /*border: 1px solid #c0d0c0;*/
-  /*border-color: ;*/
   margin: 5px 5px 5px 5px;
   text-align: justify;
-
-  /*background-image: url(EdenSunset.png);*/
-  /*background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;*/
-  /*height: 200px;
-  border-color: #d0d0d0;
-  border-style: solid;
-  border-width: thick;*/
 }
 
+@media (max-width:480px){
+  .rightSide{
+    display: none;
+  }
+}
 
 .rightSide{
   /*border: 1px solid green;*/
   margin: 5px 5px 5px 5px;
   margin-left: auto;
   align-items:stretch;
-
-
-
-  /*background-image: url(edenSign.png);*/
-  /*background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;*/
-  /*height: 200px;
-  border-color: #d0d0d0;
-  border-style: solid;
-  border-width: thick;*/
 }
 
 .footer{
