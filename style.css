@@ -71,6 +71,11 @@ h6{
   font-family:Arial Black;
 }
 
+.linkCenter{
+
+}
+
+
 p{
   color: black;
   font-family: comic sans ms;
@@ -121,7 +126,7 @@ a{
 .nav a:hover {
   /*border-spacing: 5px;*/
   border-style: outset;
-  color: #80FF80;
+  color: #F8F0B0;
   border-width: thin;
   /*padding: 3px;*/
 }
@@ -267,7 +272,7 @@ img.picLeftSide{
 }
 
 .picLink a{
-  text-align: center;
+  text-align:left;
 }
 
 .picLink img {
