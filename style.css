@@ -34,15 +34,15 @@ h2{
 
 h3{
   color: #505050;
-  font-family:comic sans ms;
+  font-family:arial;
   font-size: 0.8em;
   text-align: center;
   font-style: normal;
 }
 h4{
-  color: #505050;
-  font-size: 0.7em;
-  text-align: center;
+  color: #B0B0B0;
+  font-size: 0.8em;
+  text-align: left;
   font-family:sans-serif;
 }
 h5{
@@ -126,7 +126,7 @@ a{
 .nav a:hover {
   /*border-spacing: 5px;*/
   border-style: outset;
-  color: #F8F0B0;
+  color: #F8F030;
   border-width: thin;
   /*padding: 3px;*/
 }
